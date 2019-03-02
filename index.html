@@ -18,28 +18,88 @@
         <div class="overlay">
             <h1>Welcome to the world of our music!</h1>
             <p>We're glad you're here!</p>
-            <a href=""><i class="fas fa-angle-down fa-3x"></i></a>
+            <a href="#band-info"><i class="fas fa-angle-down fa-3x"></i></a>
         </div>
     </section>
     <!--Showcase end-->
     <!--Band Info-->
-    <section id="band-info">
-        <div class="container">
+    <div class="container">
+        <section id="band-info">
             <h2>Who We Are?</h2>
             <p>We come from a little town in Nebraska. We didn't want to be farmers, so Tony asked us if we want to play in a band and that's what we've been doing for over 50 years now. However, believe it or not, we still love it. We so much enjoy being
                 on the stage, it gives us loads of energy. Of course it wouldn't be possible without you - our fans. It's really amazing that you still want to listen to our music, go to our concerts, support us in what we do. This gives us strength to
                 keep going, and every time we feel bad and miserable, we always remind ourselves, that there are people out there, who still want us to do what we are doing. We're hoping to be there for you as long as we can!</p>
-        </div>
-    </section>
+            <div class="wrapper">
+                <figure>
+                    <img src="../assets/img/dj.png"></img>
+                    <h3>Mikey</h3>
+                    <p>Our lead vocalist. He's the youngest in the group. Loves burgers and sleeping late. Girls' favorite.</p>
+                </figure>
+                <figure>
+                    <img src="../assets/img/md.png"></img>
+                    <h3>Tony</h3>
+                    <p>Founder of our band and also the funniest person that we know. Knows all episodes of "Father Ted" by heart, pugs lover.</p>
+                </figure>
+                <figure>
+                    <img src="../assets/img/mn.png"></img>
+                    <h3>Joey</h3>
+                    <p>Plays guitar and wrote our best ballads. He's always knitting when he's stressed. Enjoys lonely cliff walks.</p>
+                </figure>
+                <figure>
+                    <img src="../assets/img/pt.png"></img>
+                    <h3>Bryan</h3>
+                    <p>Drummer and occasional piano player. Coffee-drinker, Kindle addict, blogger. Always very busy and awesome.</p>
+                </figure>
+            </div>
+        </section>
+    </div>
     <!--Band Info end-->
     <!--Media-->
-    <section id="media">
-        <div class="container">
+    <div class="container">
+        <section id="media">
             <h2>Music!</h2>
             <p>Yes! Because it's all about the music, right? Down below you can listen to some of our songs, just press 'Play' button and enjoy. If you want you can download them for free in mp3 format, by simply clicking on the album cover or the title,
                 and they will save straight onto your device. Also, check out our latest video for "Daydream Believer". We're really proud of it!</p>
-        </div>
-    </section>
+            <div class="wrapper">
+                <figure>
+                    <a href="../assets/audio/Clarksville.mp3" download><img src="../assets/img/album.jpg" alt="Album Cover"></a>
+                    <figcaption><a href="../assets/audio/Clarksville.mp3" class="song-link" download>"Clarksville"</a></figcaption>
+                    <audio controls>
+                        <source src="../assets/audio/Clarksville.mp3" type="audio/mpeg">
+                    </audio>
+                </figure>
+                <figure>
+                    <a href="../assets/audio/DaydreamBeliever.mp3" download><img src="../assets/img/album2_m.jpg" alt="Album Cover"></a>
+                    <figcaption><a href="../assets/audio/DaydreamBeliever.mp3" class="song-link" download>"Daydream Believer"</a></figcaption>
+                    <audio controls>
+                        <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                    </audio>
+                </figure>
+                <figure>
+                    <a href="../assets/audio/ImABeliever.mp3" download><img src="../assets/img/cover_m.jpg" alt="Album Cover"></a>
+                    <figcaption><a href="../assets/audio/ImABeliever.mp3" class="song-link" download>"I'm a Believer"</a></figcaption>
+                    <audio controls>
+                        <source src="../assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                    </audio>
+                </figure>
+                <figure>
+                    <a href="../assets/audio/SteppingStone.mp3" download><img src="../assets/img/cover2_m.png" alt="Album Cover"></a>
+                    <figcaption><a href="../assets/audio/SteppingStone.mp3" class="song-link" download>"Stepping Stone"</a></figcaption>
+                    <audio controls>
+                        <source src="../assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                    </audio>
+                </figure>
+            </div>
+            <div class="video">
+                <figure>
+                    <video width="90%" height="90%" controls>
+                        <source src="../assets/video/TheMonkees.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </figure>
+            </div>
+        </section>
+    </div>
     <!--Media end-->
     <!--Concerts-->
     <section id="concerts">
@@ -63,15 +123,29 @@
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Lorem ipsum dolor sit amet</li>
             </ul>
+            <div class="testimonials">
+                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
+                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
+                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
+            </div>
         </div>
     </section>
     <!--Concerts end-->
     <!--Contact form-->
     <section id="contact-form">
-        <div class="container">
             <h2>Let's Get In Touch!</h2>
             <p>Do you like our music? Did you see our concert? Or maybe you want to invite us to play at Your Birthday, hen/stag, Christmas party, wedding or whatever the occasion is? Or just drop us few words? Please do so using the below form.</p>
-        </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" name="name" placeholder="name"/>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+            <div class="socials">
+                <div class="social"><a href="#"><i class="fab fa-facebook-f fa-2x circle-icon"></i></a></div>
+                <div class="social"><a href="#"><i class="fab fa-instagram fa-2x circle-icon"></i></a></div>
+                <div class="social"><a href="#"><i class="fab fa-twitter fa-2x circle-icon"></i></a></div>
+            </div>
     </section>
     <!--Contact form end-->
     <!--Footer-->

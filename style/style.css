@@ -20,11 +20,118 @@
     padding: 20px;
     height: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .overlay a {
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    text-decoration: none;
+    color: #ccc;
+    transition: all .2s ease-in-out
+}
+
+#showcase .overlay a:hover {
+    transform: scale(1.2);
 }
 
 
 /*--------Band Info--------*/
+#band-info .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#band-info .wrapper figure {
+    margin: 10px 20px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#band-info .wrapper figure img {
+    border-radius: 50%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+}
 /*--------Media--------*/
+#media .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#media .wrapper figure {
+    margin: 10px 20px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+#media .wrapper figure img {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+#media .wrapper figure audio {
+    width: 60%;
+}
+
+/*#media .video {*/
+/*    display: flex;*/
+    /*padding: 20px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+#media .video figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*--------Concerts--------*/
 /*--------Contact form--------*/
+/*--------Socials--------*/
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socials .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
 /*--------Footer--------*/
