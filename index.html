@@ -5,14 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>The Monkees - First Milestone Project</title>
 </head>
 
 <body>
     <!--Navbar-->
-
+    <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand righteous" href="#">The Monkees</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="menu-item"><a href="#band-info">Band info</a></li>
+                    <li class="menu-item"><a href="#media">Media</a></li>
+                    <li class="menu-item"><a href="#concerts">Concerts</a></li>
+                    <li class="menu-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar end-->
     <!--Showcase-->
     <section id="showcase">
         <div class="overlay">
@@ -25,29 +50,29 @@
     <!--Band Info-->
     <div class="container">
         <section id="band-info">
-            <h2>Who We Are?</h2>
+            <h2 class="righteous">Who Are We?</h2>
             <p>We come from a little town in Nebraska. We didn't want to be farmers, so Tony asked us if we want to play in a band and that's what we've been doing for over 50 years now. However, believe it or not, we still love it. We so much enjoy being
                 on the stage, it gives us loads of energy. Of course it wouldn't be possible without you - our fans. It's really amazing that you still want to listen to our music, go to our concerts, support us in what we do. This gives us strength to
                 keep going, and every time we feel bad and miserable, we always remind ourselves, that there are people out there, who still want us to do what we are doing. We're hoping to be there for you as long as we can!</p>
             <div class="wrapper">
-                <figure>
+                <figure class="retro-1">
                     <img src="../assets/img/dj.png"></img>
-                    <h3>Mikey</h3>
+                    <h3 class="righteous">Mikey</h3>
                     <p>Our lead vocalist. He's the youngest in the group. Loves burgers and sleeping late. Girls' favorite.</p>
                 </figure>
-                <figure>
+                <figure class="retro-3">
                     <img src="../assets/img/md.png"></img>
-                    <h3>Tony</h3>
+                    <h3 class="righteous">Tony</h3>
                     <p>Founder of our band and also the funniest person that we know. Knows all episodes of "Father Ted" by heart, pugs lover.</p>
                 </figure>
-                <figure>
+                <figure class="retro-2">
                     <img src="../assets/img/mn.png"></img>
-                    <h3>Joey</h3>
+                    <h3 class="righteous">Joey</h3>
                     <p>Plays guitar and wrote our best ballads. He's always knitting when he's stressed. Enjoys lonely cliff walks.</p>
                 </figure>
-                <figure>
+                <figure class="retro-4">
                     <img src="../assets/img/pt.png"></img>
-                    <h3>Bryan</h3>
+                    <h3 class="righteous">Bryan</h3>
                     <p>Drummer and occasional piano player. Coffee-drinker, Kindle addict, blogger. Always very busy and awesome.</p>
                 </figure>
             </div>
@@ -57,32 +82,32 @@
     <!--Media-->
     <div class="container">
         <section id="media">
-            <h2>Music!</h2>
+            <h2 class="righteous">Music!</h2>
             <p>Yes! Because it's all about the music, right? Down below you can listen to some of our songs, just press 'Play' button and enjoy. If you want you can download them for free in mp3 format, by simply clicking on the album cover or the title,
                 and they will save straight onto your device. Also, check out our latest video for "Daydream Believer". We're really proud of it!</p>
             <div class="wrapper">
-                <figure>
+                <figure class="retro-4">
                     <a href="../assets/audio/Clarksville.mp3" download><img src="../assets/img/album.jpg" alt="Album Cover"></a>
                     <figcaption><a href="../assets/audio/Clarksville.mp3" class="song-link" download>"Clarksville"</a></figcaption>
                     <audio controls>
                         <source src="../assets/audio/Clarksville.mp3" type="audio/mpeg">
                     </audio>
                 </figure>
-                <figure>
+                <figure class="retro-2">
                     <a href="../assets/audio/DaydreamBeliever.mp3" download><img src="../assets/img/album2_m.jpg" alt="Album Cover"></a>
                     <figcaption><a href="../assets/audio/DaydreamBeliever.mp3" class="song-link" download>"Daydream Believer"</a></figcaption>
                     <audio controls>
                         <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
                     </audio>
                 </figure>
-                <figure>
+                <figure class="retro-3">
                     <a href="../assets/audio/ImABeliever.mp3" download><img src="../assets/img/cover_m.jpg" alt="Album Cover"></a>
                     <figcaption><a href="../assets/audio/ImABeliever.mp3" class="song-link" download>"I'm a Believer"</a></figcaption>
                     <audio controls>
                         <source src="../assets/audio/ImABeliever.mp3" type="audio/mpeg">
                     </audio>
                 </figure>
-                <figure>
+                <figure class="retro-1">
                     <a href="../assets/audio/SteppingStone.mp3" download><img src="../assets/img/cover2_m.png" alt="Album Cover"></a>
                     <figcaption><a href="../assets/audio/SteppingStone.mp3" class="song-link" download>"Stepping Stone"</a></figcaption>
                     <audio controls>
@@ -104,48 +129,57 @@
     <!--Concerts-->
     <section id="concerts">
         <div class="container">
-            <h2>Monkees Live!</h2>
-            <p>We're currently on tour around Europe. </p>
+            <h2 class="righteous">The Monkees Live!</h2>
+            <p>We're currently on tour around Europe. Check out the date, get a ticket and see you there!</p>
             <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
+                <li>16.03.2019 Dublin, Ireland - 3Arena</li>
+                <li>18.03.2019 Berlin, Germany - Mercedes-Benz Arena</li>
+                <li>22.03.2019 Paris, France - AccorHotels Arena</li>
+                <li>24.03.2019 Lisbon, Portugal - Altice Arena</li>
+                <li>28.03.2019 Copenhagen, Denmark - Royal Arena</li>
+                <li>30.03.2019 Warsaw, Poland - Torwar Arena</li>
+                <li>02.04.2019 Amsterdam, The Netherlands - Ziggo Dome</li>
+                <li>05.04.2019 Milan, Italy - Mediolanum Forum</li>
+                <li>07.04.2019 Manchester, UK - Manchester Arena</li>
+                <li>10.04.2019 London, UK - O2 Arena</li>
+                <li>12.04.2019 Madrid, WiZink Center</li>
+                <li>Let us know where else would you like to see us!</li>
             </ul>
             <div class="testimonials">
-                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
-                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
-                <blockquote cite="John, Dublin"><p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
+                <blockquote class="retro-2" cite="John, Dublin">
+                    <p>It's the best live music experience I've ever had.</p><cite>John, Dublin</cite></blockquote>
+                <blockquote class="retro-4" cite="Agnieszka, Warsaw">
+                    <p>I've always wanted to see them live. Finally, the dream came true!</p><cite>Agnieszka, Warsaw</cite></blockquote>
+                <blockquote class="retro-3" cite="Mariana, Madrid">
+                    <p>The best band ever!!! Please visit us more often!</p><cite>Mariana, Madrid</cite></blockquote>
             </div>
         </div>
     </section>
     <!--Concerts end-->
     <!--Contact form-->
     <section id="contact-form">
-            <h2>Let's Get In Touch!</h2>
-            <p>Do you like our music? Did you see our concert? Or maybe you want to invite us to play at Your Birthday, hen/stag, Christmas party, wedding or whatever the occasion is? Or just drop us few words? Please do so using the below form.</p>
-            <div class="contact-form">
-                <form>
-                    <input type="text" name="name" placeholder="name"/>
-                    <input type="submit" value="Submit"/>
-                </form>
-            </div>
-            <div class="socials">
-                <div class="social"><a href="#"><i class="fab fa-facebook-f fa-2x circle-icon"></i></a></div>
-                <div class="social"><a href="#"><i class="fab fa-instagram fa-2x circle-icon"></i></a></div>
-                <div class="social"><a href="#"><i class="fab fa-twitter fa-2x circle-icon"></i></a></div>
-            </div>
+        <div class="container">
+        <h2 class="righteous">Let's Get In Touch!</h2>
+        <p>Do you like our music? Did you go to one of our concerts or maybe you want to invite us to play at Your Birthday, Hen/Stag, Christmas Party, Wedding or whatever the occasion is? Or just drop us a few words? Please do so using the below form.</p>
+        <div class="contact-form">
+            <form>
+                <label for="name">Full name:</label>
+                <input id="email" type="text" name="name" placeholder="name" required/>
+                <label for="email">Email:</label>
+                <input id="email" type="text" name="email" placeholder="email address" required/>
+                <label for="phone">Phone number:</label>
+                <input id="phone" type="text" name="phone" placeholder="phone number" />
+                <label for="message">Message:</label>
+                <textarea rows="5" name="message" placeholder="message"></textarea>
+                <input class="button" type="submit" value="Submit" />
+            </form>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x fb"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-youtube fa-2x yt"></i></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x tw"></i></a></li>
+            </ul>
+        </div>
+        </div>
     </section>
     <!--Contact form end-->
     <!--Footer-->
@@ -153,6 +187,7 @@
         <p>Copyright&copy; Andrzej Rakowski 2019</p>
     </footer>
     <!--Footer end-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
