@@ -27,9 +27,44 @@
     background-color: #D76735;
 }
 
+.retro-5 {
+    background-color: #F9EDDC;
+}
+
+.retro-6 {
+    background-color: #FDEAB9;
+}
+
+.retro-7 {
+    background-color: #CCDBD7;
+}
+
+.retro-8 {
+    background-color: #ECB9A3;
+}
+
+body {
+    background-color: #FCEFDF;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+ul {
+    font-size: 15px;
+}
+
 /*--------Navbar--------*/
 
-.navbar-hreader a {
+.navbar-header
+
+.navbar-header a {
     color: #FBD266;
 }
 
@@ -56,6 +91,8 @@
 #showcase .overlay h1,
 #showcase .overlay p {
     font-family: 'Righteous', sans-serif;
+    background-color: rgba(143,176,169,0.9);
+    padding: 20px;
     color: #CCDBD7;
 }
 
@@ -73,7 +110,7 @@
     position: absolute;
     bottom: 50px;
     text-decoration: none;
-    color: #d76735;
+    color: #CCDBD7;
     transition: all .2s ease-in-out
 }
 
@@ -148,8 +185,17 @@
     margin: 10px 0;
 }
 
+#media .wrapper figure a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
 #media .video {
-    margin-top: 20px;
+    margin: 20px 10px 30px 10px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
 }
 
 #media .video figure {
@@ -157,14 +203,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 /*--------Concerts--------*/
 
 #concerts .container ul {
     list-style: none;
-    padding: 10px 0 20px;
+    padding: 10px;
+    background-color: #FDFAF5;
+    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    border-radius: 10px;
 }
 
 
@@ -174,8 +223,9 @@
     flex-direction: column;
     margin: 20px 0;
     padding: 20px 20px 40px;
-    background-color: #bada55;
+    background-color: #8FB0A9;
     border-radius: 10px;
+    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
 }
 
 .contact-form form input,
@@ -256,5 +306,22 @@ footer p {
         flex: 1 1 240px;
     }
 }
+
+/*@media (min-width: 991px) {*/
+/*    #band-info .wrapper > *,*/
+/*    #media .wrapper > * {*/
+/*        flex: 1;*/
+/*        max-width: 240px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1200px) {*/
+/*    #band-info .wrapper > *,*/
+/*    #media .wrapper > * {*/
+/*        flex: 1 1 240px;*/
+/*    }*/
+/*}*/
+
+
 
 
