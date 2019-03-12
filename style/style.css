@@ -62,9 +62,19 @@ ul {
 
 /*--------Navbar--------*/
 
-.navbar-header
+.navbar {
+    background: #db8a74;
+}
 
-.navbar-header a {
+.navbar-header .navbar-brand {
+    color: #FBD266;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #FBD266;
+}
+
+.navbar-default .navbar-nav>li>a {
     color: #FBD266;
 }
 
