@@ -79,6 +79,7 @@ ul {
 }
 
 /*--------Showcase--------*/
+
 #showcase {
     background: url('../assets/img/background.jpeg') no-repeat center center/cover fixed;
     height: 100vh;
@@ -86,7 +87,7 @@ ul {
 }
 
 #showcase .overlay {
-    background-color: rgba(215,103,53,0.3);
+    background-color: rgba(215, 103, 53, 0.3);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -101,7 +102,7 @@ ul {
 #showcase .overlay h1,
 #showcase .overlay p {
     font-family: 'Righteous', sans-serif;
-    background-color: rgba(143,176,169,0.9);
+    background-color: rgba(143, 176, 169, 0.9);
     padding: 20px;
     color: #CCDBD7;
 }
@@ -130,6 +131,7 @@ ul {
 
 
 /*--------Band Info--------*/
+
 #band-info .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -142,10 +144,10 @@ ul {
     border-radius: 20px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    box-shadow: 10px 10px 47px -17px rgba(0, 0, 0, 0.61);
 }
 
 #band-info .wrapper figure img {
@@ -165,6 +167,7 @@ ul {
 }
 
 /*--------Media--------*/
+
 #media .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -182,7 +185,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    box-shadow: 10px 10px 47px -17px rgba(0, 0, 0, 0.61);
 }
 
 #media .wrapper figure img {
@@ -207,7 +210,7 @@ ul {
     margin: 20px 10px 30px 10px;
     padding: 20px 10px;
     border-radius: 30px;
-    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    box-shadow: 10px 10px 47px -17px rgba(0, 0, 0, 0.61);
 }
 
 #media .video figure {
@@ -224,12 +227,13 @@ ul {
     list-style: none;
     padding: 10px;
     background-color: #FDFAF5;
-    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    box-shadow: 10px 10px 47px -17px rgba(0, 0, 0, 0.61);
     border-radius: 10px;
 }
 
 
 /*--------Contact form--------*/
+
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -237,7 +241,7 @@ ul {
     padding: 20px 20px 40px;
     background-color: #8FB0A9;
     border-radius: 10px;
-    box-shadow: 10px 10px 47px -17px rgba(0,0,0,0.61);
+    box-shadow: 10px 10px 47px -17px rgba(0, 0, 0, 0.61);
 }
 
 .contact-form form input,
@@ -251,6 +255,7 @@ ul {
     border: 0;
     border-radius: 5px;
 }
+
 /*--------Socials--------*/
 
 .contact-form ul {
@@ -314,41 +319,49 @@ footer p {
 
 
 @media (min-width: 768px) {
-    #band-info .wrapper > *,
-    #media .wrapper > * {
+    #band-info .wrapper>*,
+    #media .wrapper>* {
         max-width: 47%;
     }
 }
 
 @media (min-width: 991px) {
-    #band-info .wrapper > *,
-    #media .wrapper > * {
+    #band-info .wrapper>*,
+    #media .wrapper>* {
         max-width: 47.5%;
     }
 }
 
 @media (min-width: 1200px) {
-    #band-info .wrapper > *,
-    #media .wrapper > * {
+    #band-info .wrapper>*,
+    #media .wrapper>* {
         max-width: 23%;
     }
-    
+
+    #concerts .container ul {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
     .contact-form form input:last-child {
         margin: 10px auto;
-        width: 40%;
+        width: 30%;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
     }
-    
+
+    .contact-form form input:last-child:hover {
+        background: #C1D3D0;
+        color: #ffffff;
+    }
+
     .contact-form ul {
         justify-content: center;
     }
-    
+
     .contact-form li {
         padding: 0 40px;
     }
 }
-
-
-
-
-
-

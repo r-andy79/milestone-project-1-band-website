@@ -16,15 +16,18 @@ Client - The Monkees band has requested to build a website to promote them in th
 
 
 ### Features left to implement
+* fully functional contact form
 
 ## Technologies used
-Website was created using HTML, CSS and Bootstrap framework, which was used to create a responsive navigation bar. Flexbox property was utilised to position biography notes and audio elements and make them responsive depending on the screen size.
+Website was created using HTML, CSS and [Bootstrap] (https://getbootstrap.com/docs/3.3/) framework, which was used to create a responsive navigation bar. Flexbox property was utilised to position biography notes and audio elements and make them responsive depending on the screen size.
 
 ## Testing
 
 ## Deployment
 
 ## Credits
+The color palette used in the website comes from [Shutterstock] (https://www.shutterstock.com/blog/25-free-retro-color-palettes).
 ### Content
 ### Media
+The band photos, music and video were obtained from repository provided by Code Institute.
 ### Acknowledgements
