@@ -5,6 +5,12 @@ Client - The Monkees band has requested to build a website to promote them in th
 ## UX
 
 ## Features
+The website consists of five sections:
+* Fixed navigation bar, which allows to navigate thoughout the website, after clicking into different links. The bar remains on the top when the page is being scrolled. It collapses to 'hamburger menu' on smaller devices.
+* 'Who are we?' section which provides the information about the band and also some short bio notes for each band member.
+* 'Music' section allows the user to listen to four songs and also to download them to user's device. .....video......
+* 'The Monkees Live!' section provides an information about current and upcoming concerts. It also has a sub-section which contains feedback from fans that attended previous shows.
+* 'Let's get in touch!' section allows users to contact the band, regarding availability to perform on different occasions.
 ### Existing features
 * provides information about band history
 * provides brief information about band members
@@ -19,14 +25,14 @@ Client - The Monkees band has requested to build a website to promote them in th
 * fully functional contact form
 
 ## Technologies used
-Website was created using HTML, CSS and [Bootstrap] (https://getbootstrap.com/docs/3.3/) framework, which was used to create a responsive navigation bar. Flexbox property was utilised to position biography notes and audio elements and make them responsive depending on the screen size.
+Website was created using HTML, CSS and [Bootstrap](https://getbootstrap.com/docs/3.3/) framework, which was used to create a responsive navigation bar. Flexbox property was utilised to position biography notes and audio elements and make them responsive depending on the screen size.
 
 ## Testing
 
 ## Deployment
 
 ## Credits
-The color palette used in the website comes from [Shutterstock] (https://www.shutterstock.com/blog/25-free-retro-color-palettes).
+The color palette used in the website comes from [Shutterstock](https://www.shutterstock.com/blog/25-free-retro-color-palettes).
 ### Content
 ### Media
 The band photos, music and video were obtained from repository provided by Code Institute.
