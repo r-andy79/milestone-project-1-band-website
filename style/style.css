@@ -332,6 +332,19 @@ footer p {
     #media .wrapper > * {
         max-width: 23%;
     }
+    
+    .contact-form form input:last-child {
+        margin: 10px auto;
+        width: 40%;
+    }
+    
+    .contact-form ul {
+        justify-content: center;
+    }
+    
+    .contact-form li {
+        padding: 0 40px;
+    }
 }
 
 
