@@ -26,17 +26,17 @@ eye-catching background photograph with a greeting sign
 * 'The Monkees Live!' section provides an information about current and upcoming concerts. It also has a sub-section which contains feedback from fans that attended previous shows.
 * 'Let's get in touch!' section allows users to contact the band, regarding availability to perform on different occasions. This section contains links to popular social media websites, which are currently being created 
 ### Existing features
-[x] provides information about band history
-[x] provides brief information about band members
-[x] allows to listen to four songs and download them to user's device
-[x] watch a video
-[x] get an information about current and upcoming events
-[x] read feedback from the fans
-[x] contact the band using contact form
+- [x] provides information about band history
+- [x] provides brief information about band members
+- [x] allows to listen to four songs and download them to user's device
+- [x] watch a video
+- [x] get an information about current and upcoming events
+- [x] read feedback from the fans
+- [x] contact the band using contact form
 
 
 ### Features left to implement
-[ ] fully functional contact form
+- [ ] fully functional contact form
 
 ## Testing
 Testing scenario number 1: 'The Monkees' logo link
@@ -56,12 +56,12 @@ The website has been tested in a variety of devices such as:
 * Laptop
 * Desktop computer
 and using following browsers:
-*Google Chrome (desktop version)
-*Google Chrome (mobile version)
-*Mozilla Firefox
-*Mozilla Firefox Developer Edition
-*Safari (iPad mini)
-*Microsoft Edge
+* Google Chrome (desktop version)
+* Google Chrome (mobile version)
+* Mozilla Firefox
+* Mozilla Firefox Developer Edition
+* Safari (iPad mini)
+* Microsoft Edge
 The site is working as intended, it is responsive and displays correctly on different sceen sizes, however an issue was noticed in Microsoft Edge. When trying to decrease the width of the website, social media icons are floating to the left side of the form without any padding between them.
 This issue does not occur in any other browser.
 
