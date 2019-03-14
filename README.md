@@ -13,6 +13,7 @@ User stories:
 * As a fan I want to send a message to the band to express my gratitude for a good concert
 * As a potential client, I want to be able to listen to some of the band's song, so I can base my decision whether I want to hire them or not
 * As a potential client, I want to be able to contact the band to check if the are available to play at my event
+
 [Here](https://github.com/r-andy79/milestone-project-1-band-website/tree/master/mockups) you can find wireframes that were created for the project.
 
 ## Features
