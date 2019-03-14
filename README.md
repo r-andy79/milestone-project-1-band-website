@@ -1,6 +1,8 @@
 # First Milestone Project - The Band Website - Code Institute
-
-
+This is my The Monkees band website built as my fiest milestone project. The main goal for it is to promote the band in the Internet. The website is targeted towards existing and potential fans and also the clients, who would like to book the band to play 
+at their events. I was aiming to achieve clean and simple design and I wanted the website to be 'older user' friendly, so the more mature fans, that are not that familiar with the Internet were able to easily navigate and find the guidance (i.e. on how to 
+download a song) as well as all the information they would require. I also wanted to achieve kind of a vintage look by using color palette that was typical for the 60s and 70s of the previous century and also a suitable typography.
+The webpage was created using mobile first design approach. The layout changes depending on the device that it is being viewed on.
 ## UX
 My first goal in the design of the webpage was to provide fans and potential clients with a webpage that is simple, but provides all the information and is easy to navigate. It was also important that the design is pleasing to the eye of the user.
 User stories:
@@ -11,6 +13,7 @@ User stories:
 * As a fan I want to send a message to the band to express my gratitude for a good concert
 * As a potential client, I want to be able to listen to some of the band's song, so I can base my decision whether I want to hire them or not
 * As a potential client, I want to be able to contact the band to check if the are available to play at my event
+[Here](https://github.com/r-andy79/milestone-project-1-band-website/tree/master/mockups) you can find wireframes that were created for the project.
 
 ## Features
 The website consists of five sections:
@@ -35,30 +38,6 @@ The webpage currently:
 - [ ] fully functional contact form
 
 ## Testing
-The following tests have been conducted the webpage works correctly
-* Testing scenario number 1: 'The Monkees' logo link
-    * After clicking the link when browsing
-* Testing scenario number 2: 'About' link
-    * After clicking the link it scrolls the window to the 'About' section
-* Testing scenario number 3: 'Music' link
-    * After clicking the link it scrolls the window to the 'Music' section
-* Testing scenario number 4: 'Concerts' link
-    * After clicking the link it scrolls the window to the 'Concerts' section
-* Testing scenario number 5: 'Contact' link
-    * After clicking the link it scrolls the window to the 'Contact' section
-* Testing scenario number 6: Play a song
-    * After clicking 'play' button, the song will start
-* Testing scenario number 7: Download a song
-    * After clicking a song title or an image above it, the song will start downloading
-* Testing scenario number 8: Play a video
-    * After clicking 'play' button, the video will start
-* Testing scenario number 9: Complete the contact form
-    * The website will not let to submit an empty form
-    * The website will not let to submit a form with invalid email address
-    * The website will not let to submit a form with empty text area
-* Testing scenario number 10: Social media links
-    * When hovering over the social media link it changes its scale and color
-    * After clicking the social media link it opens new browser window
 
 The website has been tested in a variety of devices such as:
 * OnePlus 5T
@@ -83,17 +62,15 @@ Website was created using:
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - used to style the website. Also flexbox layout was used to position biography notes and audio elements and make them responsive depending on the screen size.
 * [Bootstrap](https://getbootstrap.com/docs/3.3/) framework - used to create a responsive navigation bar. 
 * [Git](https://git-scm.com/) - used for saving progress of work
-* [GitHub](https://github.com/r-andy79/milestone-project-1-band-website) - used for.......
+* [GitHub](https://github.com/r-andy79/milestone-project-1-band-website) - used for website hosting
 * [Google fonts](https://fonts.google.com/) - typography for the website
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) - icons used on the website
 
 
 ## Deployment
-This site is hosted on Github pages, deployed directly from the Master branch.
-
+This site is hosted on Github pages, deployed directly from the Master branch and can be fouund at [https://r-andy79.github.io/milestone-project-1-band-website/](https://r-andy79.github.io/milestone-project-1-band-website/).
 ## Credits
 The color palette used in the website comes from [Shutterstock](https://www.shutterstock.com/blog/25-free-retro-color-palettes).
-### Content
 ### Media
 The band photos, music and video were obtained from [repository](https://github.com/Code-Institute-Org/project-assets) provided by Code Institute. The background photo comes from [Pexels](https://www.pexels.com/photo/close-up-photo-of-drum-set-995301/)
 ### Acknowledgements
