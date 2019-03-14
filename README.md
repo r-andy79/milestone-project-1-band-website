@@ -1,21 +1,16 @@
 # First Milestone Project - The Band Website - Code Institute
-This is my 
-Client - The Monkees band has requested to build a website to promote them in the internet. The goal for the website is to provide existing and potential fans with up-to-date informations regarding current events, such as concerts and any new material releases.
-The website is targeted towards existing and potential fans and also the clients, who would like to book the band to play at their events.
-The band requested for the website to be 'older user' friendly, so their mature fans that are not too familiar with the Internet were able to easily navigate and find the guidance (i.e. on how to download a song) and all the information they would require. 
-The band wanted the website to have kind of a vintage look going back to the '60s and '70s of the previous century, wchich was accomplished by using suitable color palette and typography.
-The website was created using mobile first design approach.
+
 
 ## UX
 My first goal in the design of the webpage was to provide fans and potential clients with a webpage that is simple, but provides all the information and is easy to navigate. It was also important that the design is pleasing to the eye of the user.
 User stories:
+* As a potential fan I want to have an opportynity to obtain some information about the band history
 * As a potential fan I want to have an opportunity to listen to some of the band's songs to see if this is the kind of music that I like
-* As a potential fan I want to have an opportynity to obtain some information about the band history..........
 * As a fan I want to find an information regarding current and upcoming events, so I can go to a concert
 * As a fan I want to find an information regarding any new songs, albums, so I can buy a newly release record
 * As a fan I want to send a message to the band to express my gratitude for a good concert
 * As a potential client, I want to be able to listen to some of the band's song, so I can base my decision whether I want to hire them or not
-* As a potential client, I want to contact the band to check if the are available to play at my event
+* As a potential client, I want to be able to contact the band to check if the are available to play at my event
 
 ## Features
 The website consists of five sections:
@@ -40,6 +35,7 @@ The webpage currently:
 - [ ] fully functional contact form
 
 ## Testing
+The following tests have been conducted the webpage works correctly
 * Testing scenario number 1: 'The Monkees' logo link
     * After clicking the link when browsing
 * Testing scenario number 2: 'About' link
@@ -57,8 +53,11 @@ The webpage currently:
 * Testing scenario number 8: Play a video
     * After clicking 'play' button, the video will start
 * Testing scenario number 9: Complete the contact form
+    * The website will not let to submit an empty form
+    * The website will not let to submit a form with invalid email address
+    * The website will not let to submit a form with empty text area
 * Testing scenario number 10: Social media links
-    * After hovering over the social media link it changes its scale and color
+    * When hovering over the social media link it changes its scale and color
     * After clicking the social media link it opens new browser window
 
 The website has been tested in a variety of devices such as:
@@ -74,8 +73,8 @@ and using following browsers:
 * Mozilla Firefox Developer Edition
 * Safari (iPad mini)
 * Microsoft Edge
-The site is working as intended, it is responsive and displays correctly on different sceen sizes, however an issue was noticed in Microsoft Edge. When trying to decrease the width of the website, social media icons are floating to the left side of the form without any padding between them.
-This issue does not occur in any other browser.
+The site is working as intended, it is responsive and displays correctly on different sceen sizes, however an issue was noticed in Microsoft Edge. When trying to decrease the width of the website to mobile size, social media icons are floating to the 
+left side of the form without any padding between them. This issue does not occur in any other browser.
 
 
 ## Technologies used
