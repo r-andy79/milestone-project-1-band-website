@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +11,28 @@
 
 /*--------Utility classes--------*/
 
+/*--------Heading font-----------*/
 .righteous {
     font-family: 'Righteous', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+ul {
+    font-size: 15px;
+}
+
+/*-------- Colors -----------*/
+
+body {
+    background-color: #FCEFDF;
 }
 
 .retro-1 {
@@ -43,23 +67,6 @@
     background-color: #ECB9A3;
 }
 
-body {
-    background-color: #FCEFDF;
-}
-
-h2 {
-    text-align: center;
-}
-
-p {
-    font-size: 16px;
-    text-align: justify;
-}
-
-ul {
-    font-size: 15px;
-}
-
 /*--------Navbar--------*/
 
 .navbar {
@@ -78,7 +85,7 @@ ul {
     color: #FBD266;
 }
 
-/*--------Showcase--------*/
+/*--------Showcase - background image --------*/
 
 #showcase {
     background: url('../assets/img/background.jpeg') no-repeat center center/cover fixed;
@@ -86,6 +93,7 @@ ul {
     position: relative;
 }
 
+/*-------*/
 #showcase .overlay {
     background-color: rgba(215, 103, 53, 0.3);
     width: 100%;
@@ -226,7 +234,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*margin-top: 20px;*/
 }
 
 /*--------Concerts--------*/
@@ -324,6 +331,8 @@ footer p {
     color: #ffffff;
     margin: 0;
 }
+
+/*----- Media queries ------*/
 
 
 @media (min-width: 768px) {
