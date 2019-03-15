@@ -69,7 +69,7 @@ Website was created using:
 
 
 ## Deployment
-This site is hosted on Github pages, deployed directly from the Master branch and can be fouund at [https://r-andy79.github.io/milestone-project-1-band-website/](https://r-andy79.github.io/milestone-project-1-band-website/).
+This site is hosted on [Github pages](https://r-andy79.github.io/milestone-project-1-band-website/).
 ## Credits
 The color palette used in the website comes from [Shutterstock](https://www.shutterstock.com/blog/25-free-retro-color-palettes).
 ### Media
