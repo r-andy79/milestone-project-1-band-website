@@ -75,3 +75,4 @@ The color palette used in the website comes from [Shutterstock](https://www.shut
 ### Media
 The band photos, music and video were obtained from [repository](https://github.com/Code-Institute-Org/project-assets) provided by Code Institute. The background photo comes from [Pexels](https://www.pexels.com/photo/close-up-photo-of-drum-set-995301/)
 ### Acknowledgements
+I received some inspiration from browsing different bands' websites, especially when it comes to page layout [U2](https://www.u2.com/index/home), [Suede](http://suede.co.uk/homepage.php), [Kodaline](https://www.kodaline.com/)
